@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.5));
+    background: url(Screenshot\ 2024-09-17\ 220954.png);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.newyear{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box small{
+    font-size: 10px;
+}
+
+ @media (min-width:576px){
+    .newyear{
+        font-size: 100px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .box h2{
+        font-size: 30px;
+    }
+
+    .box{
+        height: 70px;
+        width: 70px;
+    }
+
+    .box small{
+        font-size: 15px;
+    }
+ }
+
+ @media (min-width:768px){
+    .newyear{
+        font-size: 150px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    .box h2{
+        font-size: 50px;
+    }
+
+    .box{
+        height: 100px;
+        width: 100px;
+    }
+
+    .box small{
+        font-size: 20px;
+    }
+ }
