@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: blue;
+  padding: 15px;
+}
+
+marquee,
+.three,
+li {
+  color: white;
+  display: inline;
+}
+
+ul {
+  margin-left: 70%;
+}
+
+li {
+
+  cursor: pointer;
+}
+
+li:hover {
+  color: yellow;
+}
+
+.menu {
+  background-color: aliceblue;
+  padding: 15px;
+}
+
+.items,
+h1,
+.items-1 {
+  color: brown;
+  display: inline;
+}
+
+.items {
+  margin-left: 30%;
+}
+
+.items-1 {
+  cursor: pointer;
+}
+
+.items-1:hover {
+  color: yellow
+}
+
+a {
+  color: brown;
+}
+
+
+.table1{
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px white;
+  text-align: center;
+}
+.one{
+  width: 200px;
+  border: solid 1px white;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+.two{
+  width: 350px;
+  
+  border: solid 1px white;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+.three{
+  width: 200px;
+  display: inline-block;
+  border: solid 1px white;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+.four{
+  width: 200px;
+  border: solid 1px white;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+.five{
+  width: 300px;
+  border: solid 1px white;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+.six{
+  background-color: skyblue;
+}
+.seven{
+  width: 200px;
+  border: solid 1px black;
+  color: black;
+  padding: 10px;
+}
+.eight{
+  width: 350px;
+  border: solid 1px black;
+  color: black;
+  padding: 10px;
+}
+.nine{
+  width: 200px;
+  border: solid 1px black;
+  color: black;
+  padding: 10px;
+}
+.ten{
+  width: 200px;
+  border: solid 1px black;
+  color: black;
+  padding: 10px;
+}
+.eleven{
+  width: 300px;
+  border: solid 1px black; 
+  color: black;
+  padding: 10px;
+}
+.input1{
+  height: 40px;
+  width: 200px;
+}
+.input2{
+  height: 40px;
+  width: 300px;
+}
+.flex1{
+  display: flex;
+  background: url(./development\ background.jpg);
+  background-color: black;
+  padding: 10px;
+  gap: 15px;
+  column-gap: 10px;
+}
+.flex2{
+  color: white;
+  padding: 10px;
+  
+  width: 800px;
+}
+p{
+  text-align: center;
+  padding: 15px;
+}
+.FLEX{
+  color: white;
+  padding: 10px;
+  display: inline;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.FLEX:HOVER{
+    color: yellow;
+}
+.flex3{
+  color: white;
+  padding: 10px;
+  width: 300px;
+}
+.flex4{
+  color: white;
+  padding: 10px;
+}
+.h3{
+  padding: 10px;
+}
+h4{
+  background-color: darkblue;
+  text-align: center;
+  position: fixed;
+  width: 1500px;
+  bottom: 0px;
+  margin: 15px;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+}
+.button3{
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius:1em ;
+  margin-left: 15px;
+  background-color: brown;
+  color: white;
+}

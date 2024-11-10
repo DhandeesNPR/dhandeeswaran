@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: url(.//development\ drop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  marquee{
+    color: white;
+  }
+  .header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  
+   .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+    align-items: center;
+    letter-spacing: 0.10cap;
+    gap: 20px; 
+    font-size: 20px;
+    padding: 20px;
+    
+   }
+  a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  .suggestion{
+    background-color: lightsalmon;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   padding: 1em 2em;
+   background-color: #161a20;
+   border: none;
+   color: #f0f0f0;
+   border-radius: 1000px;
+   font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  button:after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+   border-radius: 100px;
+    background-image: linear-gradient(to bottom right,blue,goldenrod);
+    z-index: -1;
+    
+  }
+  button:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px blue,-40px 0 100px purple;
+  }
+  
+  .hundred{
+    font-size: 50px;
+    margin: 5px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+  }
+  
+  .choose{
+    background-color: lightsalmon;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 15px;
+  }
+  .us{
+    display: flex;
+    gap: 10px;
+  }
+  .motto1{
+    text-align: center;
+  }
+  .motto{
+    border: 2px solid black;
+    background: url(./why\ choose\ us.jpg);
+    background-size: cover;
+    background-position:center ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    height: 200px;
+    width: 800px;
+  }
+  .vision{
+    border: 2px solid black;
+    background: url(./why\ choose\ us.jpg);
+    background-size: cover;
+    background-position:center ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    height: 200px;
+    width: 800px;  
+
+  }
+  .mission{
+    border: 2px solid black;
+    background: url(./why\ choose\ us.jpg);
+    background-size: cover;
+    background-position:center ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    height: 200px;
+    width: 800px;
+  }
+  .paragraph{
+    color: white  ;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    padding: 15px;
+  }
+ 
+  .flex1 {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    column-gap: 10px;
+ 
+  }
+ 
+  .flex-item {
+    color: white;
+    flex-grow: 2;
+    padding: 10px;
+    border: solid goldenrod 5px;
+   
+  }
+ 
+ .flex-item1{
+   color: white;
+   padding: 10px;
+   
+   width: 800px;
+ }
+ .flex-item2{
+   color: white;
+   padding: 10px;
+   width: 300px;
+   
+ }
+ .flex-item3{
+   color: white;
+   padding: 10px;
+  
+ }
+ .one{
+   color: white;
+   padding: 10px;
+   display: inline;
+   font-size: 18px;
+   text-align: center;
+   cursor: pointer;
+ }
+ .one:hover{
+   color: yellow;
+ }
+ .h3{
+   padding: 10px;
+ }
+ .h2{
+   padding: 10px;
+   color: white;
+   text-align: center;
+ }
+ h4{
+   background-color: darkblue;
+   text-align: center;
+   position: sticky;
+   
+   margin: 15px;
+   padding: 15px;
+   font-size: 18px;
+   color: white;
+ }
+ 
+ hr{
+   margin: 15px;
+   color: white;
+   
+ }
+  
+  

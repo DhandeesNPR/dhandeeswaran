@@ -1,0 +1,72 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background: url(./wp2917397-nice-hd-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .slider {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    top: 15%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+}
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+
+    to {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg)
+    }
+}
+
+.banner .slider .item {
+    position: absolute;
+    transform:
+        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px);
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em;
+    background-color: #161a20;
+    border: none;
+    color: #f0f0f0;
+    border-radius: 100px;
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom left, blue, goldenrod);
+    z-index: -1;
+
+}
+
+button:hover {
+    z-index: 0;
+    box-shadow: 40px 0 100px blue, -40px 0 100px purple;
+}

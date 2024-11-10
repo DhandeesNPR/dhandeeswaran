@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: blue;
+    padding: 15px;
+  }
+  
+  marquee,
+  .three,
+  li {
+    color: white;
+    display: inline;
+  }
+  
+  ul {
+    margin-left: 70%;
+  }
+  
+  li {
+  
+    cursor: pointer;
+  }
+  
+  li:hover {
+    color: yellow;
+  }
+  
+  .menu {
+    background-color: aliceblue;
+    padding: 15px;
+  }
+  
+  .items,
+  h1,
+  .items-1 {
+    color: brown;
+    display: inline;
+  }
+  
+  .items {
+    margin-left: 30%;
+  }
+  
+  .items-1 {
+    cursor: pointer;
+  }
+  
+  .items-1:hover {
+    color: yellow
+  }
+  .about__us{
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 15px;
+  }
+  .about__us1{
+    padding: 15px;
+    margin: 15px;
+  }
+  .about__us2{
+    padding: 15px;
+    margin: 15px;
+  }
+
+  p {
+    text-align: center;
+    padding: 15px;
+  }
+ 
+  .flex1 {
+    display: flex;
+    background: url(./development\ background.jpg);
+    background-color: black;
+    padding: 10px;
+    gap: 15px;
+    column-gap: 10px;
+ 
+  }
+ 
+  .flex-item {
+    color: white;
+    flex-grow: 2;
+    padding: 10px;
+    border: solid goldenrod 5px;
+   
+  }
+ 
+ .flex-item1{
+   color: white;
+   padding: 10px;
+   
+   width: 800px;
+ }
+ .flex-item2{
+   color: white;
+   padding: 10px;
+   width: 300px;
+   
+ }
+ .flex-item3{
+   color: white;
+   padding: 10px;
+  
+ }
+ .one{
+   color: white;
+   padding: 10px;
+   display: inline;
+   font-size: 18px;
+   text-align: center;
+   cursor: pointer;
+ }
+ .one:hover{
+   color: yellow;
+ }
+ .h3{
+   padding: 10px;
+ }
+ .h2{
+   padding: 10px;
+   color: white;
+   text-align: center;
+ }
+ h4{
+   background-color: darkblue;
+   text-align: center;
+   position: sticky;
+   
+   margin: 15px;
+   padding: 15px;
+   font-size: 18px;
+   color: white;
+ }
+ 
+ hr{
+   margin: 15px;
+   
+ }
